@@ -1,0 +1,1 @@
+((( true )->( (G (false  | (!(X[!](p3))) | (p1)))  & (G (false  | (!(X[!](p4))) | (p2)))  & true ))) && ((( true )->( (G (false  | (!(X[!](p8))) | (p5)))  & (G (false  | (!(X[!](p9))) | (p6)))  & (G (false  | (!(X[!](p10))) | (p7)))  & true ))) 
