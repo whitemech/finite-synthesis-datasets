@@ -3,6 +3,8 @@
 The datasets for finite-synthesis consists of two classes:
 * The first class of datasets is the **Random** family, composed of 1000 LTLf formulas formed by random conjunction, generated as described in [ZTLPV17](https://arxiv.org/pdf/1705.08426.pdf).
 * The second one is from [TV19](https://www.ijcai.org/Proceedings/2019/0777.pdf) and [BLTV20](https://arxiv.org/pdf/1911.08145.pdf), which describes two-player games, split into the **Single-Counter**, **Double-Counters** and **Nim** dataset families.
+
+
 Moreover, for each family, there are two versions referring to which player (agent or environment) moves first.
 
 ## Random family
