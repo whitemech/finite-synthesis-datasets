@@ -1,2 +1,0 @@
-.inputs initcounter0 initcounter1 inc
-.outputs counter0 counter1 carry0 carry1
