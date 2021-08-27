@@ -112,14 +112,14 @@ def main(number):
 
         save_path = "../../../Two-player-Game/Double-Counter/System-first/"
 
-        mf = open(save_path+"counters_" + str(n) + ".ltlf", "w")
+        mf = open(save_path+"counters_{:02d}".format(n) + ".ltlf", "w")
         mf.write(monolithic)
 
         # ff = open("counters_" + str(n) + ".fact", "w")
         # for factor in factors:
         #     ff.write(factor + "\n")
 
-        pf = open(save_path+"counters_" + str(n) + ".part", "w")
+        pf = open(save_path+"counters_{:02d}".format(n) + ".part", "w")
         pf.write(".inputs: " + " ".join(map(lambda var : var.lower(), inputs)) + "\n")
         pf.write(".outputs: " + " ".join(map(lambda var : var.lower(), outputs)))
 
