@@ -139,8 +139,8 @@ def main(heaps, token):
             #     ff.write(factor + "\n")
 
             pf = open(save_path+"/nim_" + str(n) + "_" + str(m) + ".part", "w")
-            pf.write(".inputs " + " ".join(map(lambda var : var.upper(), inputs)) + "\n")
-            pf.write(".outputs " + " ".join(map(lambda var : var.upper(), outputs)))
+            pf.write(".inputs: " + " ".join(map(lambda var : var.upper(), inputs)) + "\n")
+            pf.write(".outputs: " + " ".join(map(lambda var : var.upper(), outputs)))
 
 
 if __name__ == '__main__':

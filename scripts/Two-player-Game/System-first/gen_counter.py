@@ -108,8 +108,8 @@ def main(number):
         #     ff.write(factor + "\n")
 
         pf = open(save_path+"counter_" + str(n) + ".part", "w")
-        pf.write(".inputs " + " ".join(map(lambda var : var.lower(), inputs)) + "\n")
-        pf.write(".outputs " + " ".join(map(lambda var : var.lower(), outputs)))
+        pf.write(".inputs: " + " ".join(map(lambda var : var.lower(), inputs)) + "\n")
+        pf.write(".outputs: " + " ".join(map(lambda var : var.lower(), outputs)))
 
 if __name__ == '__main__':
     main()
