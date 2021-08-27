@@ -1,2 +1,2 @@
-.inputs: SELECT_ENV_0 SELECT_ENV_1 SELECT_ENV_2 CHANGE_ENV_0 CHANGE_ENV_1 CHANGE_ENV_2 CHANGE_ENV_3 CHANGE_ENV_4
-.outputs: SELECT_SYS_0 SELECT_SYS_1 SELECT_SYS_2 CHANGE_SYS_0 CHANGE_SYS_1 CHANGE_SYS_2 CHANGE_SYS_3 CHANGE_SYS_4 TURN_SYS TURN_ENV HEAP_0_0 HEAP_0_1 HEAP_0_2 HEAP_0_3 HEAP_0_4 HEAP_0_5 HEAP_1_0 HEAP_1_1 HEAP_1_2 HEAP_1_3 HEAP_1_4 HEAP_1_5 HEAP_2_0 HEAP_2_1 HEAP_2_2 HEAP_2_3 HEAP_2_4 HEAP_2_5
+.inputs: select_env_0 select_env_1 select_env_2 change_env_0 change_env_1 change_env_2 change_env_3 change_env_4
+.outputs: select_sys_0 select_sys_1 select_sys_2 change_sys_0 change_sys_1 change_sys_2 change_sys_3 change_sys_4 turn_sys turn_env heap_0_0 heap_0_1 heap_0_2 heap_0_3 heap_0_4 heap_0_5 heap_1_0 heap_1_1 heap_1_2 heap_1_3 heap_1_4 heap_1_5 heap_2_0 heap_2_1 heap_2_2 heap_2_3 heap_2_4 heap_2_5
