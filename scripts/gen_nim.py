@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
 import click
 from click import IntRange
 from pathlib import Path
+
+from utils import ROOT_DIR
 
 def Not(form):
     return "!" + form
@@ -75,7 +78,7 @@ def rules(player, n, m):
 )
 def main(heaps, token):
     for n in range(1, heaps+1):
-        save_path = "../../../Two-player-Game/Nim/nim_"+str(n)+"/System-first"
+        save_path = str(ROOT_DIR / f"Two-player-Game/Nim/nim_{n:02d}/System-first")
         Path(save_path).mkdir(parents=True, exist_ok=True)
         for m in range(1, token+1):
             env = "env"
@@ -131,14 +134,14 @@ def main(heaps, token):
 
 
 
-            mf = open(save_path+"/nim_" + str(n) + "_" + str(m) + ".ltlf", "w")
+            mf = open(save_path + f"/nim_{n:02d}_{m:02d}.ltlf", "w")
             mf.write(monolithic)
 
             # ff = open("benchmarks/nim/nim_" + str(n) + "_" + str(m) + ".fact", "w")
             # for factor in factors:
             #     ff.write(factor + "\n")
 
-            pf = open(save_path+"/nim_" + str(n) + "_" + str(m) + ".part", "w")
+            pf = open(save_path + f"/nim_{n:02d}_{m:02d}.part", "w")
             pf.write(".inputs: " + " ".join(map(lambda var : var.lower(), inputs)) + "\n")
             pf.write(".outputs: " + " ".join(map(lambda var : var.lower(), outputs)))
 
