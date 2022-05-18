@@ -1,2 +1,2 @@
-.inputs: selectuenvu0 changeuenvu0 changeuenvu1
-.outputs: selectusysu0 changeusysu0 changeusysu1 turnusys turnuenv heapu0u0 heapu0u1 heapu0u2
+.inputs: select_env_0 change_env_0 change_env_1
+.outputs: select_sys_0 change_sys_0 change_sys_1 turn_sys turn_env heap_0_0 heap_0_1 heap_0_2

@@ -1,2 +1,2 @@
-.inputs: selectuenvu0 selectuenvu1 changeuenvu0 changeuenvu1 changeuenvu2 changeuenvu3 changeuenvu4 changeuenvu5 changeuenvu6 changeuenvu7
-.outputs: selectusysu0 selectusysu1 changeusysu0 changeusysu1 changeusysu2 changeusysu3 changeusysu4 changeusysu5 changeusysu6 changeusysu7 turnusys turnuenv heapu0u0 heapu0u1 heapu0u2 heapu0u3 heapu0u4 heapu0u5 heapu0u6 heapu0u7 heapu0u8 heapu1u0 heapu1u1 heapu1u2 heapu1u3 heapu1u4 heapu1u5 heapu1u6 heapu1u7 heapu1u8
+.inputs: select_env_0 select_env_1 change_env_0 change_env_1 change_env_2 change_env_3 change_env_4 change_env_5 change_env_6 change_env_7
+.outputs: select_sys_0 select_sys_1 change_sys_0 change_sys_1 change_sys_2 change_sys_3 change_sys_4 change_sys_5 change_sys_6 change_sys_7 turn_sys turn_env heap_0_0 heap_0_1 heap_0_2 heap_0_3 heap_0_4 heap_0_5 heap_0_6 heap_0_7 heap_0_8 heap_1_0 heap_1_1 heap_1_2 heap_1_3 heap_1_4 heap_1_5 heap_1_6 heap_1_7 heap_1_8
