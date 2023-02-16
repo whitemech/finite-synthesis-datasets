@@ -1,2 +1,0 @@
-.inputs: initcounter0 initcounter1 incenv
-.outputs: counterenv0 countersys0 counterenv1 countersys1 carryenv0 carrysys0 carryenv1 carrysys1 incsys
